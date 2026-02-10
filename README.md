@@ -219,9 +219,8 @@ ContextMenuManager/
 
 MIT
 
-- Backups are in `%APPDATA%\ContextMenuManager\Backups\`. The first run saves a “default” backup for rollback.
-
 ## License
 
 MIT
+
 
