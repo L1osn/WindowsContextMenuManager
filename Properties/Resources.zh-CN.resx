@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>Context Menu Manager</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Manage and restore Windows right-click menus (Windows 10/11)</value></data>
+  <data name="MenuModeLabel" xml:space="preserve"><value>菜单模式：</value></data>
+  <data name="Win11New" xml:space="preserve"><value>Win11 新式</value></data>
+  <data name="Win10Classic" xml:space="preserve"><value>Win10 经典</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>语言：</value></data>
+  <data name="LanguageRestartHint" xml:space="preserve"><value>重启后生效</value></data>
+  <data name="SearchPlaceholder" xml:space="preserve"><value>🔍 搜索菜单项...</value></data>
+  <data name="Scenario_File" xml:space="preserve"><value>📄 文件</value></data>
+  <data name="Scenario_Directory" xml:space="preserve"><value>📁 文件夹</value></data>
+  <data name="Scenario_DirectoryBackground" xml:space="preserve"><value>📂 文件夹空白处</value></data>
+  <data name="Scenario_DesktopBackground" xml:space="preserve"><value>🖥 桌面空白处</value></data>
+  <data name="ItemsCountSuffix" xml:space="preserve"><value> 项</value></data>
+  <data name="TooltipHasChanges" xml:space="preserve"><value>此项有未应用的更改</value></data>
+  <data name="Loading" xml:space="preserve"><value>正在加载...</value></data>
+  <data name="NoItemsFound" xml:space="preserve"><value>没有找到菜单项</value></data>
+  <data name="NoItemsHint" xml:space="preserve"><value>尝试切换场景或清空搜索</value></data>
+  <data name="ButtonRefresh" xml:space="preserve"><value>🔄 刷新</value></data>
+  <data name="ButtonSync" xml:space="preserve"><value>🔗 同步设置</value></data>
+  <data name="ButtonBackup" xml:space="preserve"><value>📦 备份还原 ▾</value></data>
+  <data name="RestoreLastBackup" xml:space="preserve"><value>  📋 还原到上一次备份</value></data>
+  <data name="RestoreDefault" xml:space="preserve"><value>  🔃 恢复默认设置</value></data>
+  <data name="OpenBackupFolder" xml:space="preserve"><value>  📂 打开备份文件夹</value></data>
+  <data name="RestartExplorer" xml:space="preserve"><value>🔁 重启资源管理器</value></data>
+  <data name="TooltipRestartExplorer" xml:space="preserve"><value>修改后需重启资源管理器方可生效</value></data>
+  <data name="ApplyChanges" xml:space="preserve"><value>✅ 应用更改</value></data>
+  <data name="HintRestartExplorer" xml:space="preserve"><value>修改后需重启资源管理器方可生效</value></data>
+  <data name="Scope_CurrentUser" xml:space="preserve"><value>仅当前用户</value></data>
+  <data name="Scope_AllUsers" xml:space="preserve"><value>所有用户(需管理员)</value></data>
+  <data name="Scenario_Unknown" xml:space="preserve"><value>未知</value></data>
+  <data name="Source_System" xml:space="preserve"><value>系统自带</value></data>
+  <data name="Source_ThirdParty" xml:space="preserve"><value>第三方软件</value></data>
+  <data name="Source_Unknown" xml:space="preserve"><value>未知</value></data>
+  <data name="Risk_Low" xml:space="preserve"><value>低风险</value></data>
+  <data name="Risk_Medium" xml:space="preserve"><value>中风险</value></data>
+  <data name="Risk_High" xml:space="preserve"><value>高风险</value></data>
+  <data name="Risk_Unknown" xml:space="preserve"><value>未知</value></data>
+  <data name="ItemType_Command" xml:space="preserve"><value>命令</value></data>
+  <data name="ItemType_Extension" xml:space="preserve"><value>扩展</value></data>
+  <data name="ItemType_Unknown" xml:space="preserve"><value>未知</value></data>
+  <data name="Status_Scanning" xml:space="preserve"><value>正在扫描右键菜单...</value></data>
+  <data name="Status_Loaded" xml:space="preserve"><value>已加载 {0} 个菜单项</value></data>
+  <data name="Status_LoadFailed" xml:space="preserve"><value>加载失败: {0}</value></data>
+  <data name="Status_NoChanges" xml:space="preserve"><value>没有需要应用的更改</value></data>
+  <data name="Status_Applying" xml:space="preserve"><value>正在应用更改...</value></data>
+  <data name="Status_ApplySuccess" xml:space="preserve"><value>已成功应用 {0} 项更改（已自动备份）</value></data>
+  <data name="Status_ApplyPartial" xml:space="preserve"><value>应用完成：成功 {0} 项，失败 {1} 项</value></data>
+  <data name="Status_ApplyFailed" xml:space="preserve"><value>应用更改失败: {0}</value></data>
+  <data name="Status_Restoring" xml:space="preserve"><value>正在还原...</value></data>
+  <data name="Status_Restored" xml:space="preserve"><value>还原完成（已自动备份当前状态）</value></data>
+  <data name="Status_RestoreFailed" xml:space="preserve"><value>还原失败: {0}</value></data>
+  <data name="Status_Resetting" xml:space="preserve"><value>正在恢复默认设置...</value></data>
+  <data name="Status_ResetDone" xml:space="preserve"><value>已恢复默认设置（已自动备份）</value></data>
+  <data name="Status_ResetFailed" xml:space="preserve"><value>恢复默认失败: {0}</value></data>
+  <data name="Status_ClassicOn" xml:space="preserve"><value>已切换到 Win10 经典右键菜单（需要重启资源管理器生效）</value></data>
+  <data name="Status_ClassicOff" xml:space="preserve"><value>已切换到 Win11 新式右键菜单（需要重启资源管理器生效）</value></data>
+  <data name="Status_ClassicFailed" xml:space="preserve"><value>切换菜单模式失败: {0}</value></data>
+  <data name="Status_ExplorerRestarted" xml:space="preserve"><value>资源管理器已重启</value></data>
+  <data name="Status_ExplorerFailed" xml:space="preserve"><value>重启失败: {0}</value></data>
+  <data name="Msg_AdminRequired" xml:space="preserve"><value>以下 {0} 项修改需要管理员权限：
+
+{1}
+
+这些修改涉及系统级注册表 (HKCR)。如果操作失败，程序将尝试在当前用户级别 (HKCU) 进行修改。
+
+是否继续？</value></data>
+  <data name="Msg_AdminRequiredTitle" xml:space="preserve"><value>需要管理员权限</value></data>
+  <data name="Msg_ApplyPartial" xml:space="preserve"><value>部分修改失败（可能需要管理员权限）：\n\n{0}</value></data>
+  <data name="Msg_ApplyPartialTitle" xml:space="preserve"><value>部分操作失败</value></data>
+  <data name="Msg_NoBackup" xml:space="preserve"><value>没有找到可用的备份记录。</value></data>
+  <data name="Msg_NoBackupTitle" xml:space="preserve"><value>无备份</value></data>
+  <data name="Msg_ConfirmRestore" xml:space="preserve"><value>将还原到以下备份：\n\n  时间：{0}\n  说明：{1}\n  包含 {2} 个菜单项\n\n确定要还原吗？还原前会自动保存当前状态。</value></data>
+  <data name="Msg_ConfirmRestoreTitle" xml:space="preserve"><value>确认还原</value></data>
+  <data name="Msg_ConfirmReset" xml:space="preserve"><value>将执行以下操作：\n\n  1. 启用所有被禁用的菜单项\n  2. 清除所有 Shell Extension 屏蔽\n\n还原前会自动保存当前状态，可以随时撤销。\n\n确定要恢复默认设置吗？</value></data>
+  <data name="Msg_ConfirmResetTitle" xml:space="preserve"><value>恢复默认</value></data>
+  <data name="Msg_ClassicRestart" xml:space="preserve"><value>菜单风格已切换。\n\n要立即重启资源管理器让右键菜单生效吗？</value></data>
+  <data name="Msg_ClassicRestartTitle" xml:space="preserve"><value>重启资源管理器</value></data>
+  <data name="Msg_ClassicError" xml:space="preserve"><value>切换失败: {0}\n\n请确保有足够的权限。</value></data>
+  <data name="Msg_ClassicErrorTitle" xml:space="preserve"><value>操作失败</value></data>
+  <data name="Msg_ExplorerConfirm" xml:space="preserve"><value>重启资源管理器将暂时关闭所有文件夹窗口和任务栏。\n这是让菜单更改生效的最可靠方式。\n\n确定要重启吗？</value></data>
+  <data name="Msg_ExplorerConfirmTitle" xml:space="preserve"><value>重启资源管理器</value></data>
+  <data name="SyncDialogTitle" xml:space="preserve"><value>同步设置</value></data>
+  <data name="SyncDialogIntro" xml:space="preserve"><value>将“文件上右键”的已改动项同步到以下场景：</value></data>
+  <data name="SyncToDirectory" xml:space="preserve"><value>同步到“文件夹上右键”</value></data>
+  <data name="SyncToDirectoryBg" xml:space="preserve"><value>同步到“文件夹空白处右键”</value></data>
+  <data name="SyncToDesktopBg" xml:space="preserve"><value>同步到“桌面空白处右键”</value></data>
+  <data name="OK" xml:space="preserve"><value>确定</value></data>
+  <data name="Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="SyncSelectOne" xml:space="preserve"><value>请至少选择一个目标场景。</value></data>
+  <data name="SyncSelectOneTitle" xml:space="preserve"><value>提示</value></data>
+  <data name="SyncResultOk" xml:space="preserve"><value>已同步 {0} 项设置。\n请点击“应用更改”写入系统。</value></data>
+  <data name="SyncResultNone" xml:space="preserve"><value>没有可同步的项目。\n请先在“文件”分组中修改菜单项开关。</value></data>
+  <data name="SyncResultTitle" xml:space="preserve"><value>同步结果</value></data>
+</root>

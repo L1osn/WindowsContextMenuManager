@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>Context Menu Manager</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Manage and restore Windows right-click menus (Windows 10/11)</value></data>
+  <data name="MenuModeLabel" xml:space="preserve"><value>Menu mode:</value></data>
+  <data name="Win11New" xml:space="preserve"><value>Win11 new</value></data>
+  <data name="Win10Classic" xml:space="preserve"><value>Win10 classic</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Language:</value></data>
+  <data name="LanguageRestartHint" xml:space="preserve"><value>Restart app to apply</value></data>
+  <data name="SearchPlaceholder" xml:space="preserve"><value>🔍 Search menu items...</value></data>
+  <data name="Scenario_File" xml:space="preserve"><value>📄 File</value></data>
+  <data name="Scenario_Directory" xml:space="preserve"><value>📁 Directory</value></data>
+  <data name="Scenario_DirectoryBackground" xml:space="preserve"><value>📂 Directory background</value></data>
+  <data name="Scenario_DesktopBackground" xml:space="preserve"><value>🖥 Desktop background</value></data>
+  <data name="ItemsCountSuffix" xml:space="preserve"><value> items</value></data>
+  <data name="TooltipHasChanges" xml:space="preserve"><value>Unapplied changes</value></data>
+  <data name="Loading" xml:space="preserve"><value>Loading...</value></data>
+  <data name="NoItemsFound" xml:space="preserve"><value>No menu items found</value></data>
+  <data name="NoItemsHint" xml:space="preserve"><value>Try another scenario or clear search</value></data>
+  <data name="ButtonRefresh" xml:space="preserve"><value>🔄 Refresh</value></data>
+  <data name="ButtonSync" xml:space="preserve"><value>🔗 Sync settings</value></data>
+  <data name="ButtonBackup" xml:space="preserve"><value>📦 Backup &amp; Restore ▾</value></data>
+  <data name="RestoreLastBackup" xml:space="preserve"><value>  📋 Restore last backup</value></data>
+  <data name="RestoreDefault" xml:space="preserve"><value>  🔃 Restore default</value></data>
+  <data name="OpenBackupFolder" xml:space="preserve"><value>  📂 Open backup folder</value></data>
+  <data name="RestartExplorer" xml:space="preserve"><value>🔁 Restart Explorer</value></data>
+  <data name="TooltipRestartExplorer" xml:space="preserve"><value>Restart Explorer for changes to take effect</value></data>
+  <data name="ApplyChanges" xml:space="preserve"><value>✅ Apply changes</value></data>
+  <data name="HintRestartExplorer" xml:space="preserve"><value>Restart Explorer for changes to take effect</value></data>
+  <data name="Scope_CurrentUser" xml:space="preserve"><value>Current user only</value></data>
+  <data name="Scope_AllUsers" xml:space="preserve"><value>All users (admin)</value></data>
+  <data name="Scenario_Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Source_System" xml:space="preserve"><value>System</value></data>
+  <data name="Source_ThirdParty" xml:space="preserve"><value>Third-party</value></data>
+  <data name="Source_Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Risk_Low" xml:space="preserve"><value>Low risk</value></data>
+  <data name="Risk_Medium" xml:space="preserve"><value>Medium risk</value></data>
+  <data name="Risk_High" xml:space="preserve"><value>High risk</value></data>
+  <data name="Risk_Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="ItemType_Command" xml:space="preserve"><value>Command</value></data>
+  <data name="ItemType_Extension" xml:space="preserve"><value>Extension</value></data>
+  <data name="ItemType_Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Status_Scanning" xml:space="preserve"><value>Scanning context menu...</value></data>
+  <data name="Status_Loaded" xml:space="preserve"><value>Loaded {0} items</value></data>
+  <data name="Status_LoadFailed" xml:space="preserve"><value>Load failed: {0}</value></data>
+  <data name="Status_NoChanges" xml:space="preserve"><value>No changes to apply</value></data>
+  <data name="Status_Applying" xml:space="preserve"><value>Applying changes...</value></data>
+  <data name="Status_ApplySuccess" xml:space="preserve"><value>Applied {0} changes (backed up)</value></data>
+  <data name="Status_ApplyPartial" xml:space="preserve"><value>Done: {0} ok, {1} failed</value></data>
+  <data name="Status_ApplyFailed" xml:space="preserve"><value>Apply failed: {0}</value></data>
+  <data name="Status_Restoring" xml:space="preserve"><value>Restoring...</value></data>
+  <data name="Status_Restored" xml:space="preserve"><value>Restored (current state backed up)</value></data>
+  <data name="Status_RestoreFailed" xml:space="preserve"><value>Restore failed: {0}</value></data>
+  <data name="Status_Resetting" xml:space="preserve"><value>Resetting defaults...</value></data>
+  <data name="Status_ResetDone" xml:space="preserve"><value>Defaults restored (backed up)</value></data>
+  <data name="Status_ResetFailed" xml:space="preserve"><value>Reset failed: {0}</value></data>
+  <data name="Status_ClassicOn" xml:space="preserve"><value>Switched to Win10 classic menu (restart Explorer to apply)</value></data>
+  <data name="Status_ClassicOff" xml:space="preserve"><value>Switched to Win11 new menu (restart Explorer to apply)</value></data>
+  <data name="Status_ClassicFailed" xml:space="preserve"><value>Menu switch failed: {0}</value></data>
+  <data name="Status_ExplorerRestarted" xml:space="preserve"><value>Explorer restarted</value></data>
+  <data name="Status_ExplorerFailed" xml:space="preserve"><value>Restart failed: {0}</value></data>
+  <data name="Msg_AdminRequired" xml:space="preserve"><value>{0} item(s) require administrator:
+
+{1}
+
+These changes affect system registry (HKCR). If they fail, the app will try current-user (HKCU) overlay.
+
+Continue?</value></data>
+  <data name="Msg_AdminRequiredTitle" xml:space="preserve"><value>Administrator required</value></data>
+  <data name="Msg_ApplyPartial" xml:space="preserve"><value>Some changes failed (may need administrator):\n\n{0}</value></data>
+  <data name="Msg_ApplyPartialTitle" xml:space="preserve"><value>Partial failure</value></data>
+  <data name="Msg_NoBackup" xml:space="preserve"><value>No backup found.</value></data>
+  <data name="Msg_NoBackupTitle" xml:space="preserve"><value>No backup</value></data>
+  <data name="Msg_ConfirmRestore" xml:space="preserve"><value>Restore this backup?\n\nTime: {0}\nDescription: {1}\nItems: {2}\n\nCurrent state will be backed up first.</value></data>
+  <data name="Msg_ConfirmRestoreTitle" xml:space="preserve"><value>Confirm restore</value></data>
+  <data name="Msg_ConfirmReset" xml:space="preserve"><value>This will:\n\n  1. Enable all disabled menu items\n  2. Clear all Shell Extension blocks\n\nCurrent state will be backed up first. Continue?</value></data>
+  <data name="Msg_ConfirmResetTitle" xml:space="preserve"><value>Restore defaults</value></data>
+  <data name="Msg_ClassicRestart" xml:space="preserve"><value>Menu style changed.\n\nRestart Explorer now to apply?</value></data>
+  <data name="Msg_ClassicRestartTitle" xml:space="preserve"><value>Restart Explorer</value></data>
+  <data name="Msg_ClassicError" xml:space="preserve"><value>Switch failed: {0}\n\nEnsure you have permission.</value></data>
+  <data name="Msg_ClassicErrorTitle" xml:space="preserve"><value>Error</value></data>
+  <data name="Msg_ExplorerConfirm" xml:space="preserve"><value>Restarting Explorer will close all folder windows and the taskbar briefly. This is the most reliable way to apply menu changes.\n\nRestart now?</value></data>
+  <data name="Msg_ExplorerConfirmTitle" xml:space="preserve"><value>Restart Explorer</value></data>
+  <data name="SyncDialogTitle" xml:space="preserve"><value>Sync settings</value></data>
+  <data name="SyncDialogIntro" xml:space="preserve"><value>Sync changed items from "File" to:</value></data>
+  <data name="SyncToDirectory" xml:space="preserve"><value>Sync to "Directory"</value></data>
+  <data name="SyncToDirectoryBg" xml:space="preserve"><value>Sync to "Directory background"</value></data>
+  <data name="SyncToDesktopBg" xml:space="preserve"><value>Sync to "Desktop background"</value></data>
+  <data name="OK" xml:space="preserve"><value>OK</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="SyncSelectOne" xml:space="preserve"><value>Select at least one target.</value></data>
+  <data name="SyncSelectOneTitle" xml:space="preserve"><value>Hint</value></data>
+  <data name="SyncResultOk" xml:space="preserve"><value>Synced {0} item(s). Click "Apply changes" to write to system.</value></data>
+  <data name="SyncResultNone" xml:space="preserve"><value>Nothing to sync. Change menu toggles under "File" first.</value></data>
+  <data name="SyncResultTitle" xml:space="preserve"><value>Sync result</value></data>
+</root>

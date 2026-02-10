@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>Assets\app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <RootNamespace>ContextMenuManager</RootNamespace>
+    <AssemblyName>ContextMenuManager</AssemblyName>
+    <Version>1.0.0</Version>
+    <Description>Manage and restore Windows right-click menus (Windows 10/11)</Description>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\app.ico" Condition="!Exists('Assets\app.ico')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- App.xaml moved under src/, but must stay ApplicationDefinition to generate entry point -->
+    <Page Remove="src\\App.xaml" />
+    <ApplicationDefinition Include="src\\App.xaml" />
+  </ItemGroup>
+
+  <!-- Keep satellite assemblies inside single-file exe so language works after publish -->
+  <PropertyGroup Condition="'$(PublishSingleFile)' == 'true'">
+    <IncludeAllContentForSelfExtract>false</IncludeAllContentForSelfExtract>
+  </PropertyGroup>
+
+</Project>
