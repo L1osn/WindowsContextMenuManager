@@ -118,6 +118,11 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 | Backup              | JSON under `%APPDATA%\ContextMenuManager\Backups`                            | Yes, restore anytime |
 
 ---
+## License
+
+MIT License
+
+---
 
 <a name="中文"></a>
 ## 中文 (Chinese)
@@ -220,9 +225,7 @@ ContextMenuManager/
 
 MIT
 
-## License
 
-MIT
 
 
 
