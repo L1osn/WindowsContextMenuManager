@@ -78,6 +78,7 @@ ContextMenuManager/
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (to build)
 - .NET 8 runtime (to run)
 
+
 ### Build and Run
 
 #### Build
@@ -107,6 +108,7 @@ Output: `src\dist\<arch>\` containing `ContextMenuManager.exe` (and a `lib/` fol
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:EnableCompressionInSingleFile=true -o src/dist
 ```
+
 
 ### Design Summary
 
@@ -224,6 +226,7 @@ ContextMenuManager/
 ### 开源许可
 
 MIT
+
 
 
 
