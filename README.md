@@ -39,6 +39,39 @@ A desktop tool to safely and clearly manage Windows 10/11 context menu items.
 - The choice is stored in `%APPDATA%\ContextMenuManager\settings.json`; the app restarts to apply.
 - The single-file .exe includes both languages; no extra files are required.
 
+
+### Project Layout
+
+```
+ContextMenuManager/
+├── src/
+│   ├── App.xaml, App.xaml.cs           # App entry & Startup logic
+│   ├── Converters/                     # WPF value converters
+│   ├── Models/                         # Data models & enums
+│   ├── Services/                       # Registry, backup, language, Explorer helpers
+│   ├── Styles/                         # Global styles & color resources
+│   │   └── AppStyles.xaml
+│   ├── ViewModels/                     # Main UI logic and commands
+│   ├── Views/                          # WPF windows & pages
+│   │   ├── MainWindow.xaml
+│   │   └── MainWindow.xaml.cs
+│   └── dist/                           # Publish output (gitignored)
+│       └── win-x64/
+│           ├── ContextMenuManager.exe  # Standalone executable
+│           └── lib/                    # Debug symbols (pdb) and config
+├── ContextMenuManager.csproj
+├── Assets/
+│   ├── app.ico
+│   └── app.manifest
+├── Properties/
+│   ├── Resources.resx, *.zh-CN.resx    # UI strings (en / zh-CN)
+│   └── PublishProfiles/                # Publish config
+├── Scripts/
+│   ├── publish-standalone.ps1          # Build script (supports x64/ARM64)
+│   └── publish-standalone.cmd          # Launcher
+└── README.md
+```
+
 ### Requirements
 
 - Windows 10 / Windows 11
@@ -73,38 +106,6 @@ Output: `src\dist\<arch>\` containing `ContextMenuManager.exe` (and a `lib/` fol
 **Option 2: Command line**
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:EnableCompressionInSingleFile=true -o src/dist
-```
-
-### Project Layout
-
-```
-ContextMenuManager/
-├── src/
-│   ├── App.xaml, App.xaml.cs           # App entry & Startup logic
-│   ├── Converters/                     # WPF value converters
-│   ├── Models/                         # Data models & enums
-│   ├── Services/                       # Registry, backup, language, Explorer helpers
-│   ├── Styles/                         # Global styles & color resources
-│   │   └── AppStyles.xaml
-│   ├── ViewModels/                     # Main UI logic and commands
-│   ├── Views/                          # WPF windows & pages
-│   │   ├── MainWindow.xaml
-│   │   └── MainWindow.xaml.cs
-│   └── dist/                           # Publish output (gitignored)
-│       └── win-x64/
-│           ├── ContextMenuManager.exe  # Standalone executable
-│           └── lib/                    # Debug symbols (pdb) and config
-├── ContextMenuManager.csproj
-├── Assets/
-│   ├── app.ico
-│   └── app.manifest
-├── Properties/
-│   ├── Resources.resx, *.zh-CN.resx    # UI strings (en / zh-CN)
-│   └── PublishProfiles/                # Publish config
-├── Scripts/
-│   ├── publish-standalone.ps1          # Build script (supports x64/ARM64)
-│   └── publish-standalone.cmd          # Launcher
-└── README.md
 ```
 
 ### Design Summary
@@ -222,5 +223,6 @@ MIT
 ## License
 
 MIT
+
 
 
